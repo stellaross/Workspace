@@ -1,0 +1,12 @@
+body{
+    background: rgb(155, 155, 155);
+}
+
+.box1{
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    background-color: rgb(243, 158, 158);
+}
