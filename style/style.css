@@ -33,7 +33,6 @@ body {
     width: 100%;
   }
 
-
   #headcircle{
      border-radius: 50%;
      float: right;
@@ -48,10 +47,15 @@ body {
     width: 2em;
     height: 2em;
     background-color: red;
+   }
+
+
+  p:hover {
+    color: rgb(178, 64, 255);
   }
 
-  p:hover{
-    color: rgb(178, 64, 255);
+  .name {
+    color:darkblue;
   }
 
   
