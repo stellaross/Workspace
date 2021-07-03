@@ -21,6 +21,7 @@ body {
   
   .testatadevelhope{
     background: #111111;
+    padding-right: 1em;
     height: 5vw;
     background-size: contain;
     background-repeat: no-repeat;
@@ -32,19 +33,26 @@ body {
     width: 100%;
   }
 
-  @media screen and (min-width: 1024px) {
-    .container {
-      margin-left: 1vw;
-      margin-right: 1vw;
-      margin-top: 1vw;
-    }
+
+  #headcircle{
+     border-radius: 50%;
+     float: right;
+     width: 2em;
+     height: 2em;
+     background-color: aqua;
+   }
+
+   #headcircle:hover{
+    border-radius: 50%;
+    float: right;
+    width: 2em;
+    height: 2em;
+    background-color: red;
   }
+
+  p:hover{
+    color: rgb(178, 64, 255);
+  }
+
   
-  @media screen and (min-width: 2560px) {
-        .container {
-          margin-left: 1vw;
-          margin-right: 1vw;
-          margin-top: 1vw;
-        }
-    }
-  /*-----------------------------------end css develhope-----------------------------------*/
+   /*-----------------------------------end css develhope-----------------------------------*/
