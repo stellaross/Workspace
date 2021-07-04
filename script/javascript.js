@@ -1,0 +1,1 @@
+document.getElementById('btn_maz').addEventListener('click', function(){document.getElementById('maz').className='mazout'});
