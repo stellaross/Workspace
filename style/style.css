@@ -1,9 +1,6 @@
 /*-----------------------------------css develhope-----------------------------------*/
 body {
-    background: linear-gradient(217deg, rgb(97, 97, 97), rgba(255, 0, 0, 0) 90%),
-      linear-gradient(127deg, rgb(142, 204, 201), rgba(0, 255, 0, 0) 70%),
-      linear-gradient(336deg, rgb(218, 17, 17), rgba(0, 0, 255, 0) 40%),
-      linear-gradient(23deg, rgb(150, 221, 92), rgba(255, 255, 0, 0) 70%);
+  background-image: linear-gradient(to left, green, white, red);
     margin: 0;
     padding: 0;
     display: flex;
@@ -57,10 +54,11 @@ body {
    }
 
   p:hover{
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-  -webkit-background-clip: text;
-  color: transparent;
-  transition: 700ms ease;
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    text-shadow: 1px 1px black;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 400ms ease;
   }
 
   .name {
